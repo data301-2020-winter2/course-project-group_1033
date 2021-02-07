@@ -21,7 +21,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 ## Team Members
 
 - Person 1: Haris V. aka. dudeImpossible42: I am from Ontario and rock with Physics
-- Person 2: one sentence about you!
+- Person 2: Edouard Eltherington. Currently in my thrid year as a computer science major. I enjoy running a lot. 
 - Person 3: one sentence about you!
 
 ## References
