@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+This directory will include the raw data set. 
