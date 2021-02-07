@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+A folder containing the external images we use in our repository 
