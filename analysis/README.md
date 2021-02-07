@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+Each group member's local machine jupyter notebook edits can be found here, as well as the overall submitted notebook

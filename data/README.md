@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+A folder containing the collective data files (raw & processed) of the datset used
