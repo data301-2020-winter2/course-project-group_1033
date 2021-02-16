@@ -23,7 +23,7 @@ It contains 7 coloums and about 45 thousand rows. It provides larger solarsystem
  
 The first column provides information on the planetary name, in a string. The second is a unique integer assigned to that spesific geological feature.The third is the name of the planetary feature, also a string. The fourth is a two char code representing the type of feature. The fifth is a latitude, 6th is the longitude, both are floats. The 7th coloumn is a size of the planetary feature, in kilometers, and is a float. 
 
-This dataset provides a huge amount usable data, and we will use it to determine relationships between the size of the geological feature, and its location on the planet.
+This dataset provides a huge amount usable data, and we might use it to determine relationships between the size of the geological feature, and its location on the planet.
 
 
 ## Team Members
