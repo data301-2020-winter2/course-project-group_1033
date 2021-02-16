@@ -16,7 +16,15 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+Our dataset was provided by the web page:
+https://planetarynames.wr.usgs.gov
+ 
+It contains 7 coloums and about 45 thousand rows. It provides larger solarsystem bodies and the different geological features contained within, and the data is updated regularily by humans to provide a central location for astronomers to examine planets and various features. 
+ 
+The first column provides information on the planetary name, in a string. The second is a unique integer assigned to that spesific geological feature.The third is the name of the planetary feature, also a string. The fourth is a two char code representing the type of feature. The fifth is a latitude, 6th is the longitude, both are floats. The 7th coloumn is a size of the planetary feature, in kilometers, and is a float. 
+
+This dataset provides a huge amount usable data, and we will use it to determine relationships between the size of the geological feature, and its location on the planet.
+
 
 ## Team Members
 
