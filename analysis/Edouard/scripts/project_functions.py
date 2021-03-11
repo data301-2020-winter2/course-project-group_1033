@@ -12,8 +12,7 @@ def load_and_process(url_or_path_to_csv_file):
       .dropna()
       .rename(columns= { "# TRANSLATORS: (Phoebe); Argonaut, founder and king of Pherae in Thessaly." : "Planet Name", "Unnamed: 1" : "ID", "Unnamed: 3" : "Planetary Feature", "Unnamed: 2" : "FeatureName",  "Unnamed: 4" : "Latitude of Center of Planetary Feature", "Unnamed: 5" : "Longitude of Center of Planetary Feature", "Unnamed: 6" : "Size of Planetary Feature(km)"})
     .reset_index()
-
-
+    .drop(['index'],axis =1)
      )
 
 
@@ -35,9 +34,6 @@ def load_and_process(url_or_path_to_csv_file):
               FeatureName = lambda x: x['FeatureName'].str.split(",").str[0])
       .loc[:, ['Planet Name','ID','FeatureName','FeatureType', 'Planetary Feature', 'Latitude of Center of Planetary Feature','Longitude of Center of Planetary Feature','Size of Planetary Feature(km)']]
       .sort_values('FeatureType', ascending = True )
-      .reset_index()
-
-       
       )
     
     return df3
