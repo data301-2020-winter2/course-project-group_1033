@@ -21,7 +21,7 @@ def load_and_process(url_or_path_to_csv_file):
     df2 = (df
     .assign(FeatureName = lambda x: x['FeatureName'].str.replace('"', " ")
     .str.strip("_")
-    .str.lstrip('(')`
+    .str.lstrip('(')
     .str.rstrip(')')
     .str.strip(',')
            ))
