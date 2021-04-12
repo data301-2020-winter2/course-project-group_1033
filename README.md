@@ -8,11 +8,11 @@
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
 
-## Describe your topic/interest in about 150-200 words
+## Description of Topic
 
 Our group is interested in investigating the many different interesting features located on planets and smaller planetary bodies across the solar system. With this topic of choice, we hope to have a better understanding of the many types, size, and locations of unique planetary features that exist around us. Some of these features include different craters, satellite features, and mountain ranges (Mons). There is a lot of important nomenclature to learn from Latin and Greek names that identify specific features. What makes this topic of choice even more interesting is that will be able to transform our data into something that can be easily readable for average users. Sometimes space names and complex numerical notation can be unappealing for average people. In this project we hope to transform this data set to make it more appealing to others, so it can serve as a tool for people to have a better understanding of our solar system.   
 
-## Describe your dataset in about 150-200 words
+## Description of our Dataset 
 
 Our dataset was provided by the web page:
 https://planetarynames.wr.usgs.gov
@@ -22,7 +22,6 @@ It contains 7 coloums and about 45 thousand rows. It provides larger solarsystem
 The first column provides information on the planetary name, in a string. The second is a unique integer assigned to that spesific geological feature.The third is the name of the planetary feature, also a string. The fourth is a two char code representing the type of feature. The fifth is a latitude, 6th is the longitude, both are floats. The 7th coloumn is a size of the planetary feature, in kilometers, and is a float. 
 
 This dataset provides a huge amount usable data, and we might use it to determine relationships between the size of the geological feature, and its location on the planet.
-
 
 
 ## Final Project Presentation of Dashbaord
@@ -37,6 +36,6 @@ https://youtu.be/Vcop5JfNiV8
 
 - Person 3: Daniel Holmes. Third year electrical eng/ first year compsci minor. I also enjoy running
 
-## References
+
 
 
